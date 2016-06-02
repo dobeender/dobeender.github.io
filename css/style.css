@@ -1,0 +1,8 @@
+.center{
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.now{
+  box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+}
