@@ -1,7 +1,10 @@
 .Etitle{
-  border: 100px solid #000;
   text-align: center;
 }
 .now{
   box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+}
+
+body{
+  padding-top: 70px;
 }
