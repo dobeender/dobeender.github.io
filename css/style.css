@@ -13,3 +13,7 @@ body{
   text-align: center;
   display: block;
 }
+.tCenter{
+  margin-left: auto;
+  margin-right: auto;
+}
