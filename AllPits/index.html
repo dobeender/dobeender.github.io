@@ -2,6 +2,7 @@
 	<head>
 		<title>正在進行的專案</title>
 		<link rel="shortcut icon" type="image/png" href="../img/icon.png">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<link rel="stylesheet" href="http://semantic-ui.com/dist/semantic.min.css">
 		<script src="http://semantic-ui.com/dist/semantic.min.js"> </script>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -32,7 +33,7 @@
 						<div class="meta"><p>不定時</p></div>
 						<div class="description">
 							紅石沒有那麼可怕，只是你不願意去面對!
-							<button class="ui primary button">看看!</button>
+							<button class="ui primary button" onclick="$("#rsM")">看看!</button>
 						</div>
 					</div>
 					<div class="extra content">
@@ -50,24 +51,32 @@
 			<p>雜項連結:<a href="https://www.youtube.com/channel/UCejxIOPsjNtmtKTynVY5w4A" target="_blank">Youtube</a>|<a href="https://www.twitch.tv/dobeender" target="_blank">Twitch</a></p>			
 		</div>
 		
-		<div class="ui standard test modal transition visible active" style="margin-top: -234.358px; display: block ! important;">
-			<div class="header">Select a Photo</div>
+		<div id="rsM" class="ui standard test modal transition visible active long" style="margin-top: -234.358px; display: block ! important;">
+			<div class="header">安德玩紅石</div>
 			<div class="image content">
 				<div class="ui medium image">
 					<img src="/images/avatar2/large/rachel.png">
 				</div>
 				<div class="description">
-					<div class="ui header">Default Profile Image</div>
-					<p>We've found the following <a href="https://www.gravatar.com" target="_blank">gravatar</a> image associated with your e-mail address.</p>
-					<p>Is it okay to use this photo?</p>
+					<div class="ui header">安德玩紅石</div>
+					<p>紅石沒有那麼可怕，只是你不願意去面對!</p>
+					<br>
+					<br>
 				</div>
 			</div>
+			<div class="description">
+			
+			</div>
 			<div class="actions">
-				<div class="ui black deny button">Nope</div>
-				<div class="ui positive right labeled icon button">Yep, that's me<i class="checkmark icon"></i></div>
+				<div class="ui black deny button Mclose">關閉</div>
 			</div>
 		</div>
-
+		
+		
+		<script>
+		$(".ui.modal").modal("hide");
+		$(".Mclose").on('click', function(e){$(e.target).closest(".ui.modal").modal('hide')})
+		</script>
 	</body>
 
 </html>
