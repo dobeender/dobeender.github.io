@@ -3,3 +3,9 @@ pos-mid : {
   display: block;
   margin: 0 auto;
 }
+
+pos-rig : {
+  text-align:left;
+  display: absolute;
+  margin: 0 auto;
+}
