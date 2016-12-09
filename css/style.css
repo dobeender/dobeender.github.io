@@ -9,3 +9,7 @@ pos-rig : {
   display: absolute;
   margin: 0 auto;
 }
+
+word-gray : {
+  color: "efefef";
+}
