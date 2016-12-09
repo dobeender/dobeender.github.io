@@ -4,27 +4,23 @@
 		<title>所有的專案</title>
 		<link rel="shortcut icon" type="image/png" href="img/icon.png">
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-		<link rel="stylesheet" href="http://semantic-ui.com/dist/semantic.min.css">
-		<script src="http://semantic-ui.com/dist/semantic.min.js"> </script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.js"> </script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<meta name="viewport" content="width=device-width">
 	</head>
   
 	<body>
-		<div class="ui secondary pointing menu fixed navbar" style="background-color: #f7f7f7">
-			<a href="index.html" class="item"> 首頁 </a>
-			<a href="Pro.html" class="item"> 進行中的專案 </a>
-			<a href="fin.html" class="item"> 已完成(不進行)的專案 </a>
-			<a class="item active"> 所有的專案 </a>
-		</div>
+		<ul class="nav nav-pills">
+			<li role="presentation"><a href="#">首頁</a></li>
+			<li role="presentation"><a href="#">進行中的專案</a></li>
+			<li role="presentation"><a href="#">已完成的專案</a></li>
+			<li role="presentation" class="nav-active"><a href="#">所有的專案</a></li>
+		</ul>
 		
-		<div class="ui big breadcrumb">
-			<a class="section">首頁</a>
-			<i class="right chevron icon divider"></i>
-			<div class="active section">所有的專案</div>
-		</div>
+		<h3><a href="index.html">獨臂安德</a>/所有的專案</h3>
 		
-		<div class="ui segment">
+<!-- 		<div class="ui segment">
 			
 			<div class="ui link cards">
 				<div class="card">
@@ -44,15 +40,15 @@
 				</div>
 			</div>
 			
-		</div>
+		</div> -->
 		
-		<div class="ui segment" style="padding: 1.5em; margin: 0em; background-color: #dfdfdf; text-align: center;">
+<!-- 		<div class="ui segment" style="padding: 1.5em; margin: 0em; background-color: #dfdfdf; text-align: center;">
 			<p>這個網頁由獨臂安德製作</p>
 			<p>使用了<a href="https://jquery.com/" target="_blank">JQuery</a>和<a href="http://semantic-ui.com/" target="_blank">Semantic UI</a></p>
 			<p>雜項連結:<a href="https://www.youtube.com/channel/UCejxIOPsjNtmtKTynVY5w4A" target="_blank">Youtube</a>|<a href="https://www.twitch.tv/dobeender" target="_blank">Twitch</a></p>			
-		</div>
+		</div> -->
 		
-		<div id="rsM" class="ui standard test modal transition visible hidden long" style="margin-top: -234.358px; display: block ! important;">
+<!-- 		<div id="rsM" class="ui standard test modal transition visible hidden long" style="margin-top: -234.358px; display: block ! important;">
 			<h2 class="header">安德玩紅石</h2>
 			<div class="image content">
 				<div class="ui medium image"><img src="img/icon.png"></div>
@@ -92,11 +88,11 @@
 			</div>
 			<div class="actions"><div class="ui black deny button Mclose">關閉</div></div>
 		</div>
-		
+		 -->
 		
 		<script>
-		$(".ui.modal").modal("hide");
-		$(".Mclose").on('click', function(e){$(e.target).closest(".ui.modal").modal('hide')})
+// 		$(".ui.modal").modal("hide");
+// 		$(".Mclose").on('click', function(e){$(e.target).closest(".ui.modal").modal('hide')})
 		</script>
 	</body>
 
