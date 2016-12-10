@@ -13,3 +13,7 @@ pos-rig : {
 word-gray : {
   color: #efefef;
 }
+
+word-black : {
+   color: rgba(0,0,0,.87);
+}
