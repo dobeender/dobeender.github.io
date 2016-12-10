@@ -18,7 +18,7 @@ word-black : {
    color: rgba(0,0,0,.87);
 }
 
-nav-active : {
+myNav-active : {
   border-color: #1B1C1D;
   color: rgba(0,0,0,.95);
 }
