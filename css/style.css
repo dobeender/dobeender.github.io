@@ -17,14 +17,3 @@ word-gray : {
 word-black : {
    color: rgba(0,0,0,.87);
 }
-
-myNav-active : {
-  border-color: #1B1C1D;
-  color: rgba(0,0,0,.95);
-}
-
-myNav :{
-  background-color: #f7f7f7;
-  border-bottom: 2px solid rgba(34,36,38,.15);
-  color: rgba(0,0,0,.87);
-}
