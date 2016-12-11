@@ -4,12 +4,12 @@
 	display: flex;
 }
 
-.myNav > .active {
+.myNav-active {
 	border-color: #1B1C1D;
 	font-weight: 700;
 	color: rgba(0,0,0,.95);
 }
 
-.myNav > .item {	
+.myNav-item {	
 	color: rgba(0,0,0,.87);
 }
