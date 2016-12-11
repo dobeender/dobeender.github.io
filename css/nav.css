@@ -1,6 +1,7 @@
 .myNav {
 	background-color : #f7f7f7;
 	border-bottom: 2px solid rgba(34,36,38,.15);
+	display: flex;
 }
 
 .myNav.active {
