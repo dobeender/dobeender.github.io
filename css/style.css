@@ -1,19 +1,19 @@
-.pos-mid : {
+.pos-mid {
   text-align: center;
   display: block;
   margin: 0 auto;
 }
 
-.pos-rig : {
+.pos-rig {
   text-align:left;
   display: absolute;
   margin: 0 auto;
 }
 
-.word-gray : {
+.word-gray {
   color: #efefef;
 }
 
-.word-black : {
+.word-black {
    color: rgba(0,0,0,.87);
 }
